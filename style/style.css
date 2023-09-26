@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -17,11 +19,20 @@ body {
   display: flex;
   flex-direction: column;
   background-color: aliceblue;
-  width: 50vh;
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.582);
-  border-radius: 1vh;
   padding: 24px;
   gap: 10px;
+  border-radius: 1vh;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translate(0, 0);
+  transition: transform 0.2s ease-in-out;
+}
+.container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container:hover {
+  transform: translate(0, -2px);
 }
 .container .calculator {
   width: 400px;
@@ -38,7 +49,11 @@ body {
   border: none;
   background-color: #d4d4d4;
   cursor: pointer;
+  box-shadow: 0 4px 8px rgba(161, 158, 158, 0.253);
+  transform: translate(0, 0);
+  transition: transform 0.2s ease-in-out;
 }
 .container .calculator .btn:hover {
   background-color: #cac9c9;
+  transform: translate(0, -2px);
 }/*# sourceMappingURL=style.css.map */
