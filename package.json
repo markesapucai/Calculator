@@ -1,0 +1,10 @@
+{
+  "name": "web-calculator",
+  "version": "1.0.0",
+  "description": "A simple web calculator whit Html, Css, JavaScript & Scss",
+  "main": "index.html",
+  "repository": "https://github.com/markesapucai/Calculator.git",
+  "author": "Mark Leite <marktobusiness113@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
